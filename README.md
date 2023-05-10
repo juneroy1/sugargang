@@ -1,16 +1,16 @@
-<!-- for clonong the  data from https://sugargang.com/collections/alle-produkte need to run the php artisan db:seed it will get the data from page 1 to page 5 only-->
-<!-- please dont forget to run php artisan serve, php artisan db:seed  -->
+for clonong the  data from https://sugargang.com/collections/alle-produkte need to run the php artisan db:seed it will get the data from page 1 to page 5 only
+please dont forget to run php artisan serve, php artisan db:seed  
 
-<!-- if you want to create  your own mongodb go to database.php and change the default to 
+if you want to create  your own mongodb go to database.php and change the default to 
 'default' => env('DB_CONNECTION', 'mongodb'),
- -->
-<!-- 
+
+
 then add it
 'mongodb' => [
             'driver' => 'mongodb',
             'dsn' => env('DB_URI','mongodb+srv://juneroy:Juneroy123@cluster0.nagrm.mongodb.net/?retryWrites=true&w=majority'),
             'database' => 'cluster0'
-        ] -->
+] 
 
 
 
